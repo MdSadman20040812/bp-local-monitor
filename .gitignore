@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+bp_log.csv
+bp_dashboard.html
+bp_agent_log.jsonl
+*.egg
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
