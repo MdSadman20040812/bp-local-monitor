@@ -37,7 +37,7 @@ The dashboard is a single self-contained HTML file with no external JS/CSS:
 
 ![Dashboard preview](assets/dashboard-preview.png)
 
-> *Replace `assets/dashboard-preview.png` with a real screenshot after running `bp-local dashboard`.*
+> Self-contained HTML dashboard — no external JS/CSS, works offline.
 
 ---
 
