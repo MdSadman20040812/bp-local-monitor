@@ -1,0 +1,3 @@
+[console_scripts]
+bp-local = bp_monitor.cli:main
+bp-local-agent = bp_monitor.agent:main

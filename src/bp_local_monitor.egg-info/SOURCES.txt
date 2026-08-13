@@ -1,0 +1,15 @@
+pyproject.toml
+src/bp_local_monitor.egg-info/PKG-INFO
+src/bp_local_monitor.egg-info/SOURCES.txt
+src/bp_local_monitor.egg-info/dependency_links.txt
+src/bp_local_monitor.egg-info/entry_points.txt
+src/bp_local_monitor.egg-info/requires.txt
+src/bp_local_monitor.egg-info/top_level.txt
+src/bp_monitor/__init__.py
+src/bp_monitor/agent.py
+src/bp_monitor/classifier.py
+src/bp_monitor/cli.py
+src/bp_monitor/dashboard.py
+src/bp_monitor/schemas.py
+src/bp_monitor/storage.py
+tests/test_bp_local_monitor.py

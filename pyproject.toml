@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bp-local-monitor"
+version = "0.1.0"
+description = "Deterministic, local blood pressure monitoring — no cloud, no login, no external uploads."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Md Sadman Bin Masud", email = "contact@example.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
+
+[project.scripts]
+bp-local = "bp_monitor.cli:main"
+bp-local-agent = "bp_monitor.agent:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
